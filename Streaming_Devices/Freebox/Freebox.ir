@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Poweer
+type: parsed
+protocol: NECext
+address: 1E F9 00 00
+command: 0A F5 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: 1E F9 00 00
+command: 41 BE 00 00
+# 
+name: Channel up
+type: parsed
+protocol: NECext
+address: 1E F9 00 00
+command: 44 BB 00 00
+# 
+name: Channel down
+type: parsed
+protocol: NECext
+address: 1E F9 00 00
+command: 43 BC 00 00

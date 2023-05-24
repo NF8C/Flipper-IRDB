@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Poweer
+name: POWER
 type: parsed
 protocol: NECext
 address: 1E F9 00 00
 command: 0A F5 00 00
 # 
-name: Guide
+name: GUIDE
 type: parsed
 protocol: NECext
 address: 1E F9 00 00
 command: 41 BE 00 00
 # 
-name: Channel up
+name: CHANNEL+
 type: parsed
 protocol: NECext
 address: 1E F9 00 00
 command: 44 BB 00 00
 # 
-name: Channel down
+name: CHANNEL-
 type: parsed
 protocol: NECext
 address: 1E F9 00 00
